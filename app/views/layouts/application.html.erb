@@ -12,5 +12,9 @@
     <main class="flex-grow">
       <%= content_for?(:content) ? yield(:content) : yield %>
     </main>
+
+    <footer>
+      <%= render "shared/footer" %>
+    </footer>
   </body>
 </html>
