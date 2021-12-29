@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "docopy",
   "private": "true",
   "dependencies": {
     "autoprefixer": "^10.4.0",
