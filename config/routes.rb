@@ -7,7 +7,10 @@ Rails.application.routes.draw do
 
   devise_for :users
 
-  get 'documentation', to:'documentation#index'
   root to: 'home#index'
+
+  get 'documentation', to:'documentation#index'
+  get 'templates', to:'templates#index'
+
 
 end
