@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+redis: redis-server --port 6379
 if ! command -v foreman &> /dev/null
 then
   echo "Installing foreman..."
